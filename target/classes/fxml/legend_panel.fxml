@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" type="GridPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <columnConstraints>
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" percentWidth="30.0" prefWidth="100.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" percentWidth="30.0" prefWidth="100.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" percentWidth="30.0" prefWidth="100.0" />
+    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" percentWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Label fx:id="legendTitleLabel" text="图例" GridPane.columnSpan="4" />
+      <Label fx:id="lightTagLabel" layoutX="298.0" layoutY="32.0" text="灯" GridPane.columnSpan="2" GridPane.rowIndex="1" />
+      <Label fx:id="acTagLabel" layoutX="73.0" layoutY="32.0" text="空调" GridPane.columnSpan="2" GridPane.rowIndex="2" />
+      <Label fx:id="curtainTagLabel" layoutX="73.0" layoutY="32.0" text="电动窗帘" GridPane.columnSpan="2" GridPane.rowIndex="3" />
+      <Label fx:id="temSensorTagLabel" layoutX="73.0" layoutY="32.0" text="温度传感器" GridPane.columnSpan="2" GridPane.rowIndex="5" />
+      <Label fx:id="lightSensorTagLabel" layoutX="73.0" layoutY="32.0" text="光照传感器" GridPane.columnSpan="2" GridPane.rowIndex="6" />
+      <Label fx:id="humSensorTagLabel" layoutX="73.0" layoutY="32.0" text="湿度传感器" GridPane.columnSpan="2" GridPane.rowIndex="7" />
+      <Label fx:id="vocSensorTagLabel" layoutX="73.0" layoutY="32.0" text="VOC传感器" GridPane.columnSpan="2" GridPane.rowIndex="8" />
+      <Label fx:id="dayTagLabel" layoutX="73.0" layoutY="303.0" text="白天" GridPane.columnSpan="2" GridPane.rowIndex="10" />
+      <Label fx:id="nightTagLabel" layoutX="73.0" layoutY="23.0" text="晚上" GridPane.columnSpan="2" GridPane.rowIndex="11" />
+      <Separator prefWidth="200.0" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="4" />
+      <Separator layoutX="160.0" layoutY="161.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="9" />
+      <Label fx:id="lightLabel" layoutX="154.0" layoutY="54.0" text="灯" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowIndex="1" />
+      <Label fx:id="curtainLabel" layoutX="136.0" layoutY="122.0" text="电动窗帘" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowIndex="3" />
+      <Label fx:id="vocSensorLabel" layoutX="129.0" layoutY="287.0" text="VOC传感器" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowIndex="8" />
+      <Label fx:id="temSensorLabel" layoutX="130.0" layoutY="188.0" text="温度传感器" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowIndex="5" />
+      <Label fx:id="nightLabel" layoutX="148.0" layoutY="386.0" text="晚上" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowIndex="11" />
+      <Label fx:id="humSensorLabel" layoutX="130.0" layoutY="254.0" text="湿度传感器" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowIndex="7" />
+      <Label fx:id="dayLabel" layoutX="148.0" layoutY="353.0" text="白天" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowIndex="10" />
+      <Label fx:id="acLabel" layoutX="148.0" layoutY="88.0" text="空调" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowIndex="2" />
+      <Label fx:id="lightSensorLabel" layoutX="130.0" layoutY="221.0" text="光照传感器" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowIndex="6" />
+   </children>
+</fx:root>

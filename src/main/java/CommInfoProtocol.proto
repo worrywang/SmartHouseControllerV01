@@ -1,0 +1,264 @@
+package java;
+
+option java_package = "com.mars.smarthouse.net.decoder";
+option java_outer_classname = "CommInfoProtocol";
+
+message CommunicationMessageRequest{
+//    repeated Room
+    optional MessageType type = 1;
+    optional RequestContent content = 2;
+}
+
+message CommunicationMessageResponse{
+    optional MessageType type = 1;
+    optional ResponseContent content = 2;
+}
+
+message RequestContent{
+    optional CRequestContent ccontent = 1;
+    optional RRequestContent rcontent = 2;
+    optional URequestContent ucontent = 3;
+    optional DRequestContent dcontent = 4;
+}
+
+message ResponseContent{
+    optional CResponseContent ccontent = 1;
+    optional RResponseContent rcontent = 2;
+    optional UResponseContent ucontent = 3;
+    optional DResponseContent dcontent = 4;
+}
+
+message CRequestContent{
+    optional Device creatDevice = 1;
+}
+
+message CResponseContent{
+    optional Device createDevice = 1;
+}
+
+message RRequestContent{
+    repeated string IDs = 1;
+    optional DeviceLevel deviceLevel = 2;
+}
+
+message RResponseContent{
+    repeated Device devices = 1;
+    repeated SmartRoom smartRooms = 2;
+}
+
+message URequestContent{
+    repeated string deviceIDs = 1;
+    repeated InputItem inputItemList = 2;
+}
+
+message UResponseContent{
+    optional bool result = 1;
+}
+
+message DRequestContent{
+    repeated string deviceIDs = 1;
+}
+
+message DResponseContent{
+    optional bool result = 1;
+}
+
+enum DeviceLevel{
+    DEVICE = 1;
+    ROOM  = 2;
+}
+
+enum MessageType{
+    C = 1;
+    R = 2;
+    U = 3;
+    D = 4;
+}
+
+message SmartRoom{
+    optional string roomID = 1;
+    optional string roomName = 2;
+    repeated SmartDevice smartDevices = 3;
+    repeated PersonalItem personal = 4;
+}
+
+message PersonalItem{
+    optional string name = 1 ;
+    optional string value = 2;
+}
+
+message SmartDevice{
+    optional Device device = 1;
+    repeated Device deviceList = 2;
+}
+
+message Device{
+    required string machineID = 1;
+    optional string name = 2;
+    optional string type = 3;
+    optional Deployment deployment = 4;
+    optional Output output = 5;
+    optional Input input = 6;
+    optional Capability capability = 7;
+}
+
+message Deployment{
+    optional Location location = 1;
+}
+
+message Output{
+    repeated StateItem states = 1;
+    repeated ObservationItem observations = 2;
+    repeated CommandItem commands = 3;
+}
+
+
+message Input{
+    repeated InputItem inputItemList = 1;
+}
+
+
+message Capability{
+    repeated ControlCapability controlCapability = 1;
+    repeated CommunicationCapability communicationCapability = 2;
+    repeated MeasurementCapability measurementCapability = 3;
+}
+
+message Location{
+//    optional RelativeLocation relativeLocation = 1;
+//    optional AbsoluteLocation absoluteLocation = 2;
+    optional string locationID = 1;
+    optional float x = 2;
+    optional float y = 3;
+    optional float z = 4;
+}
+
+message RelativeLocation{
+    optional RelativeOffset relativeOffset = 1;
+    optional ReferencePoint referencePoint = 2;
+}
+
+message RelativeOffset
+{
+    optional double x = 1;
+    optional double y = 2;
+    optional double z = 3;
+}
+
+message ReferencePoint
+{
+    optional string objectID = 1;
+}
+
+message AbsoluteLocation{
+    optional GeoCoordinate geoCoordinate  =1;
+    optional Address address = 2;
+}
+message Address{
+    optional Continent continent = 1;
+}
+
+message Continent{
+    optional string continentID = 1;
+    optional Nation nation = 2 ;
+}
+
+message Nation
+{
+    optional string nationID = 1;
+    optional Province province = 2;
+}
+
+message Province
+{
+    optional string provinceID = 1;
+    optional City city = 2;
+}
+
+message City
+{
+    optional string cityID = 1;
+    optional Street street = 2;
+}
+
+message Street
+{
+    optional string streetID = 1;
+    optional Building building = 2;
+}
+
+message Building
+{
+    optional string buildingID = 1;
+    optional Floor floor = 2;
+}
+
+message Floor
+{
+    optional string floorID = 1;
+    optional Room room = 2;
+}
+
+message Room
+{
+    optional string roomID = 1;
+}
+
+
+    message GeoCoordinate
+{
+    optional double longitude = 1;
+    optional double latitude = 2;
+    optional double altitude = 3;
+}
+message ControlCapability
+{
+    optional string name = 1;
+    optional InputItem inputItem = 2;
+}
+
+message CommunicationCapability
+{
+    optional string name = 1;
+    optional InputItem inputItem = 2;
+}
+
+message MeasurementCapability
+{
+    optional string name = 1;
+    optional InputItem inputItem = 2;
+}
+
+
+message InputItem{
+    optional string name  =1;
+    optional CommandItem commandItem = 2;
+}
+
+message StateItem{
+    optional string name = 1;
+    optional string description = 2;
+    optional string time = 3;
+}
+
+message ObservationItem
+{
+    optional string name = 1;
+    optional string value = 2;
+    optional string unit = 3;
+    optional string time = 4;
+}
+
+message CommandItem {
+    optional string name = 1;
+    optional string method = 2;
+    optional string url = 3;
+    repeated Parameter parameters = 4;
+}
+
+message Parameter{
+    optional string name = 1;
+    optional string value = 2;
+
+}
+

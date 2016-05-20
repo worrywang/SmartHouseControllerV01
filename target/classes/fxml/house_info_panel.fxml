@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" type="GridPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <columnConstraints>
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" percentWidth="3.0" prefWidth="100.0" />
+    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" percentWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" percentWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" minWidth="10.0" percentWidth="20.0" prefWidth="100.0" />
+      <ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" minWidth="10.0" percentWidth="100.0" prefWidth="100.0" />
+    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" percentWidth="15.0" prefWidth="100.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" percentWidth="15.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" percentHeight="35.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" percentHeight="20.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" percentHeight="20.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" percentHeight="20.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" percentHeight="20.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" percentHeight="20.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" percentHeight="20.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" percentHeight="20.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.columnSpan="4">
+         <children>
+            <Label fx:id="floorLabel" text="Label" />
+            <Label fx:id="dayIconLabel" text="Label">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" top="5.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+      <Label fx:id="room01Label" text="Label" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="LEFT" GridPane.rowIndex="1" />
+      <Label fx:id="room01StateLabel" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+      <Label fx:id="room02Label" text="Label" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="LEFT" GridPane.rowIndex="2" />
+      <Label fx:id="room03Label" text="Label" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="LEFT" GridPane.rowIndex="3" />
+      <Label fx:id="room04Label" text="Label" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="LEFT" GridPane.rowIndex="4" />
+      <Label fx:id="room05Label" text="Label" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="LEFT" GridPane.rowIndex="5" />
+      <Label fx:id="room06Label" text="Label" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="LEFT" GridPane.rowIndex="6" />
+      <Label fx:id="room07Label" text="Label" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="LEFT" GridPane.rowIndex="7" />
+      <Label fx:id="room02StateLabel" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+      <Label fx:id="room03StateLabel" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+      <Label fx:id="room04StateLabel" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+      <Label fx:id="room05StateLabel" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+      <Button fx:id="room01ControllerButton" mnemonicParsing="false" text="Button" GridPane.columnIndex="5" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets />
+         </GridPane.margin></Button>
+      <Button fx:id="room02ControllerButton" mnemonicParsing="false" text="Button" GridPane.columnIndex="5" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets />
+         </GridPane.margin></Button>
+      <Button fx:id="room03ControllerButton" mnemonicParsing="false" text="Button" GridPane.columnIndex="5" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets />
+         </GridPane.margin></Button>
+      <Button fx:id="room04ControllerButton" mnemonicParsing="false" text="Button" GridPane.columnIndex="5" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets />
+         </GridPane.margin></Button>
+      <Button fx:id="room05ControllerButton" mnemonicParsing="false" text="Button" GridPane.columnIndex="5" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets />
+         </GridPane.margin></Button>
+      <Label fx:id="room01SuggestionLabel" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+      <Label fx:id="room02SuggestionLabel" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+      <Label fx:id="room03SuggestionLabel" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+      <Label fx:id="room04SuggestionLabel" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+      <Label fx:id="room05SuggestionLabel" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+     <Label fx:id="room06InfoLabel" text="Label" GridPane.columnIndex="3" GridPane.columnSpan="3" GridPane.rowIndex="6" />
+     <Label fx:id="room07InfoLabel" text="Label" GridPane.columnIndex="3" GridPane.columnSpan="3" GridPane.rowIndex="7" />
+      <Separator prefWidth="200.0" GridPane.columnIndex="2" GridPane.columnSpan="4" GridPane.rowIndex="1" GridPane.valignment="BOTTOM" />
+      <Separator layoutX="56.0" layoutY="133.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.columnSpan="4" GridPane.rowIndex="2" GridPane.valignment="BOTTOM" />
+      <Separator layoutX="10.0" layoutY="49.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.columnSpan="4" GridPane.rowIndex="3" GridPane.valignment="BOTTOM" />
+       <Separator layoutX="10.0" layoutY="49.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.columnSpan="4" GridPane.rowIndex="4" GridPane.valignment="BOTTOM" />
+       <Separator layoutX="10.0" layoutY="49.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.columnSpan="4" GridPane.rowIndex="5" GridPane.valignment="BOTTOM" />
+       <Separator layoutX="10.0" layoutY="49.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.columnSpan="4" GridPane.rowIndex="6" GridPane.valignment="BOTTOM" />
+   </children>
+</fx:root>

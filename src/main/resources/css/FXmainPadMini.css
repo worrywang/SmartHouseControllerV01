@@ -1,0 +1,301 @@
+.numberLabel{
+	-fx-font-size: 1.1em;
+    -fx-text-fill: blue ;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center ;
+}
+
+.controlLabel{
+	-fx-font-size: 1.0em;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center ;
+}
+.label1 .text{
+
+    -fx-effect: dropshadow(one-pass-box , white, 0, 1 , 0, 1);
+
+}
+
+.label1 {
+    /*
+
+    -fx-background-color: linear-gradient(
+
+        to bottom, #dbdcdd 0%, #a9a9ab 100%);
+*/
+
+    -fx-padding: 6px;
+
+    -fx-font-size: 1.5em;
+    -fx-font-weight: bold;
+
+}
+
+
+.label2.text{
+
+    -fx-effect: dropshadow(one-pass-box , white, 0, 1 , 0, 1);
+
+}
+
+.label2{
+    -fx-font-size: 1.0em;
+     -fx-font-weight: bold;
+}
+
+.label3.text{
+
+    -fx-effect: dropshadow(one-pass-box , white, 0, 1 , 0, 1);
+
+}
+
+.label3{
+
+    -fx-padding: 6px;
+    -fx-font-size: 1.1em;
+    -fx-text-fill: red;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+}
+
+.label4{
+
+    -fx-font-size: 1.1em;
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center ;
+    -fx-underline: true 
+}
+
+.button1{
+
+    -fx-font-size: 1.1em;
+}
+
+.button1 .text{
+    -fx-effect: dropshadow(one-pass-box , white, 0, 1 , 0, 1);
+}
+
+.borderPane{
+/*  -fx-border-color:lightskyblue; */ 
+-fx-border-color: #666;
+    -fx-border-width:1;
+}
+
+.infor{
+    -fx-background-color: null;
+        -fx-background-repeat:no-repeat ;
+    -fx-background-size: cover;
+    -fx-background-image: url("images/infor.png");
+}
+
+
+.lightImg{
+    -fx-background-repeat:no-repeat ;
+    -fx-background-size: cover;
+    -fx-background-image: url("images/light_on.png");
+    -fx-background-size: 30.0px 20.0px ;
+}
+
+.roomImg{
+        -fx-background-repeat:no-repeat ;
+    -fx-background-size: cover;
+    -fx-background-image: url("images/room.png");
+}
+
+.machineImageLight{
+    -fx-background-image: url("images/light_icon.png");
+    -fx-background-repeat:no-repeat ;
+    -fx-background-size: cover;
+    -fx-background-size: 15.0px 20.0px ;
+}
+
+.machineImageHum{
+    -fx-background-image: url("images/hum_icon.png");
+    -fx-background-repeat:no-repeat ;
+    -fx-background-size: cover;
+    -fx-background-size:15.0px 20.0px ;
+}
+
+.machineImageTemp{
+    -fx-background-image: url("images/temphot_icon.png");
+    -fx-background-repeat:no-repeat ;
+    -fx-background-size: cover;
+    -fx-background-size: 15.0px 20.0px ;
+}
+
+.bulbImage{
+    -fx-background-image: url("images/bulb.png");
+    -fx-background-repeat:no-repeat ;
+    -fx-background-size: cover;
+    -fx-background-size: 15.0px 20.0px ;
+}
+
+.bulbOffImage{
+    -fx-background-image: url("images/bulboff.png");
+    -fx-background-repeat:no-repeat ;
+    -fx-background-size: cover;
+    -fx-background-size: 15.0px 20.0px ;
+}
+
+
+.airCondImage{
+    -fx-background-image: url("images/air_cond.png");
+    -fx-background-repeat:no-repeat ;
+    -fx-background-size: cover;
+    -fx-background-size: 15.0px 20.0px ;
+}
+
+.dateShow{
+	 -fx-padding: 6px;
+    -fx-text-fill: orange ;
+    -fx-font-weight: 900;
+   /*  -fx-font: bold 18pt "Courier"; */
+   -fx-font: bold 12pt "GungsuhChe";
+	-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+#roomName .text{
+
+    -fx-effect: dropshadow(one-pass-box , white, 0, 1 , 0, 1);
+
+}
+
+#roomName{
+
+    -fx-padding: 6px;
+    -fx-font-size: 1.1em;
+    -fx-text-fill: red;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+}
+
+
+#lightImage{
+    -fx-background-image: url("images/light_icon.png");
+    -fx-background-repeat:no-repeat ;
+    -fx-background-size: cover;
+    -fx-background-size: 15.0px 20.0px ;
+}
+
+#humImage{
+    -fx-background-image: url("images/hum_icon.png");
+    -fx-background-repeat:no-repeat ;
+    -fx-background-size: cover;
+    -fx-background-size: 15.0px 20.0px ;
+}
+
+#tempImage{
+    -fx-background-image: url("images/temphot_icon.png");
+    -fx-background-repeat:no-repeat ;
+    -fx-background-size: cover;
+    -fx-background-size: 15.0px 20.0px ;
+}
+
+#bulbOnImage{
+    -fx-background-image: url("images/bulb.png");
+    -fx-background-repeat:no-repeat ;
+    -fx-background-size: cover;
+    -fx-background-size: 15.0px 20.0px ;
+}
+
+#bulbOffImage{
+    -fx-background-image: url("images/bulboff.png");
+    -fx-background-repeat:no-repeat ;
+    -fx-background-size: cover;
+    -fx-background-size:15.0px 20.0px ;
+}
+
+
+#airCondImage{
+    -fx-background-image: url("images/air_cond.png");
+    -fx-background-repeat:no-repeat ;
+    -fx-background-size: cover;
+    -fx-background-size: 15.0px 20.0px ;
+}
+
+#labelRed{
+	 -fx-font-size: 1.0em;
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center ;
+    -fx-underline: true 
+}
+#labelBlue{
+	 -fx-font-size: 1.0em;
+    -fx-text-fill: blue ;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center ;
+    -fx-underline: true 
+}
+#labelGreen{
+	 -fx-font-size: 1.0em;
+    -fx-text-fill: green;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center ;
+    -fx-underline: true 
+}
+#labelOrange{
+	 -fx-font-size: 1.0em;
+    -fx-text-fill: orange;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center ;
+    -fx-underline: true 
+}
+#labelYellow{
+	 -fx-font-size: 1.0em;
+    -fx-text-fill: yellow;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center ;
+    -fx-underline: true 
+}
+#labelRecommendLength{
+	 -fx-font-size: 1.0em;
+	     -fx-text-fill: blue ;
+}
+
+#label4{
+
+    -fx-font-size: 1.0em;
+    -fx-text-fill: blue;
+    -fx-text-alignment: center ;
+}
+
+#label3{
+
+    -fx-font-size: 1.0em;
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center ; 
+}
+.split-pane *.split-pane-divider{
+	 -fx-padding: 0 2 0 2;
+	 -fx-background-color: lightsteelblue  ;
+}
+
+.tab:selected .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: #96b946;
+    -fx-font-size:1.2em;
+    -fx-font-weight: bold;
+}
+
+#testImg{
+        -fx-background-repeat:no-repeat ;
+    -fx-background-size: cover;
+    -fx-background-image: url("images/room.png");
+}
+
+#borderPane{
+/*  -fx-border-color:lightskyblue; */ 
+-fx-border-color: #666;
+    -fx-border-width:1;
+}
+
+#information_show_vbox{
+	-fx-border-color: #666;
+    -fx-border-width:1;
+/*  -fx-background-color: #c0c0c0; */
+    -fx-background-color: #ffebcd;
+}

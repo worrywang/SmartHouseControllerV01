@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/bean/iocd/AbsoluteLocation.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/bean/iocd/Address.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/bean/iocd/Building.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/bean/iocd/Capability.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/bean/iocd/City.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/bean/iocd/CommandItem.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/bean/iocd/CommunicationCapability.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/bean/iocd/Continent.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/bean/iocd/ControlCapability.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/bean/iocd/Deployment.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/bean/iocd/Floor.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/bean/iocd/GeoCoordinate.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/bean/iocd/Input.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/bean/iocd/InputItem.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/bean/iocd/Location.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/bean/iocd/Machine.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/bean/iocd/MeasurementCapability.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/bean/iocd/Nation.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/bean/iocd/ObservationItem.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/bean/iocd/Output.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/bean/iocd/Province.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/bean/iocd/ReferencePoint.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/bean/iocd/RelativeLocation.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/bean/iocd/RelativeOffset.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/bean/iocd/Room.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/bean/iocd/StateItem.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/bean/iocd/Street.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/bootstrap/SmatHouseBootstrap.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/constant/Setting.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/net/utils/StreamUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/ui/subpanel/ApplicationInfoPanel.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/ui/subpanel/ControlPanel.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/ui/subpanel/HouseDeviceInfoPanel.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/ui/subpanel/HouseInfoPanel.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/ui/subpanel/HouseViewPanel.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/ui/subpanel/LegendPanel.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/ui/subpanel/MainLogoPanel.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/ui/subpanel/MainPanel.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/ui/subpanel/RoomInfoPanel.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/ui/subpanel/RoomViewPanel.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mars/smarthouse/utils/ModuleTool.java" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

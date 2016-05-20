@@ -1,0 +1,80 @@
+.paneltitlefont{
+    -fx-font-family: "微软雅黑";
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+
+
+.infortagfont{
+    -fx-font-family: "微软雅黑";
+    -fx-font-size: 13px;
+    -fx-font-weight: bolder;
+}
+
+.inforcontentfont{
+    -fx-font-family: "SimSun";
+    -fx-font-size: 13px;
+}
+
+.infocontentfontsmall{
+    -fx-font-family: "SimSun";
+    -fx-font-size: 12px;
+}
+
+.tablecontentfont .column-header{
+    -fx-font-family: "SimSun";
+    -fx-font-size: 14px;
+    -fx-font-weight: bolder;
+}
+
+.tablecontentfont .table-cell{
+    -fx-font-family: "SimSun";
+    -fx-font-size: 13px;
+}
+
+.maintablecontentfont .column-header{
+    -fx-font-family: "SimSun";
+    -fx-font-size: 14px;
+    -fx-font-weight: bolder;
+}
+
+.text-input{
+    -fx-font-family: "SimSun";
+    -fx-font-size: 11px;
+}
+
+
+.combo-box{
+    -fx-font-family: "SimSun";
+    -fx-font-size: 11px;
+    -fx-font-weight: bolder;
+}
+.button{
+    -fx-font-family: "SimSun";
+    -fx-font-size: 11px;
+}
+.maintablecontentfont .table-cell{
+
+}
+
+.smallFontTest{
+    -fx-font-family: "微软雅黑";
+    -fx-font-size: 4px;
+    -fx-font-weight: bolder;
+}
+
+.buttonContentFontSize{
+    -fx-font-family: "微软雅黑";
+    -fx-font-size: 10px;
+    -fx-font-weight: bolder;
+}
+
+.colorLabelContentFont{
+    -fx-font-family: "微软雅黑";
+    -fx-font-size: 10px;
+}
+.infortagfontsmall{
+    -fx-font-family: "微软雅黑";
+    -fx-font-size: 12px;
+    -fx-font-weight: bolder;
+}

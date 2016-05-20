@@ -1,0 +1,477 @@
+.numberLabel{
+	-fx-font-size: 1.5em;
+    -fx-text-fill: blue ;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center ;
+}
+
+.appName{
+    -fx-font-size: 1.6em;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center ;
+}
+
+.imagebordercolor{
+    -fx-background-color: #c7eae4;
+}
+
+/*.button{*/
+    /*-fx-background-color: linear-gradient(#999999, #2A5058);*/
+    /*/!*-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );*!/*/
+    /*-fx-text-fill: #ffffe5;*/
+    /*-fx-padding:2 10 2 10;*/
+/*}*/
+
+/*.button:hover {*/
+    /*-fx-background-color: linear-gradient(#2A5058, #999999);*/
+/*}*/
+
+
+.mainbackcolor{
+    -fx-background-color: #666;
+}
+
+.panelbackgroundcolor{
+    /*-fx-background-color: #32313b;*/
+    /*-fx-background-color: #000000;*/
+    /*-fx-background-color: #2b2b2b;*/
+    -fx-background-color: #EFEFEF;
+    -fx-border-color: #999999;
+    -fx-border-width: 1px;
+}
+
+.gridpanebackgroundcolor{
+    -fx-background-color: #cfd3c5;
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+}
+
+.gridpanebackgroundcolorodd{
+    -fx-background-color: #EFEFEF;
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+}
+
+.imagebordercolor{
+    -fx-background-color: #c7eae4;
+}
+
+.lightIconImg{
+    -fx-background-repeat:no-repeat ;
+    -fx-background-size: cover;
+    -fx-background-image: url("../imgs/light1.png");
+    -fx-background-size: 30.0px 30.0px ;
+    /*-fx-background-insets: 0 0 0 0, 0, 1, 2;*/
+}
+
+.acIconImg{
+    -fx-background-repeat:no-repeat ;
+    -fx-background-size: cover;
+    -fx-background-image: url("../imgs/kt1.png");
+    -fx-background-size: 30.0px 30.0px ;
+}
+
+.curtainIconImg{
+    -fx-background-repeat:no-repeat ;
+    -fx-background-size: cover;
+    -fx-background-image: url("../imgs/cl1.png");
+    -fx-background-size: 30.0px 30.0px ;
+}
+
+.lightSensorIconImg{
+    -fx-background-repeat:no-repeat ;
+    -fx-background-size: cover;
+    -fx-background-image: url("../imgs/lightsensor.png");
+    -fx-background-size: 30.0px 30.0px ;
+}
+
+.humSensorIconImg{
+    -fx-background-repeat:no-repeat ;
+    -fx-background-size: cover;
+    -fx-background-image: url("../imgs/humsensor.png");
+    -fx-background-size: 30.0px 30.0px ;
+}
+
+.temSensorIconImg{
+    -fx-background-repeat:no-repeat ;
+    -fx-background-size: cover;
+    -fx-background-image: url("../imgs/tempsensor.png");
+    -fx-background-size: 30.0px 30.0px ;
+}
+
+.vocSensorIconImg{
+    -fx-background-repeat:no-repeat ;
+    -fx-background-size: cover;
+    -fx-background-image: url("../imgs/air.png");
+    -fx-background-size: 30.0px 30.0px ;
+}
+
+.dayIconImg{
+    -fx-background-repeat:no-repeat ;
+    -fx-background-size: cover;
+    -fx-background-image: url("../imgs/day.png");
+    -fx-background-size: 28.0px 28.0px ;
+}
+
+.nightIconImg{
+    -fx-background-repeat:no-repeat ;
+    -fx-background-size: cover;
+    -fx-background-image: url("../imgs/night.png");
+    -fx-background-size: 28.0px 28.0px ;
+}
+
+
+.tooHighColor{
+    -fx-text-fill: red;
+}
+
+.moderationColor{
+    -fx-text-fill: green ;
+}
+
+.someHighColor{
+    -fx-text-fill: orange;
+}
+
+.defaultColor{
+    -fx-text-fill: black;
+}
+#labelOrange{
+    -fx-font-size: 1.4em;
+    -fx-text-fill: orange;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center ;
+    -fx-underline: true
+}
+#labelYellow{
+    -fx-font-size: 1.4em;
+    -fx-text-fill: yellow;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center ;
+    -fx-underline: true
+}
+
+.paneltitlecolor{
+    -fx-text-fill: #1fd26a;
+}
+
+.infortagcolor{
+    -fx-text-fill: #c6b797;
+}
+
+.inforcontentcolor{
+    -fx-text-fill: #ffffe5;
+}
+
+
+.combo-box-base{
+    -fx-background-color: #999999;
+    -fx-padding:0 0 0 0;
+}
+
+.combo-box-base .list-cell{
+    -fx-text-fill: #FFFFE5;
+}
+
+.list-view .list-cell{
+    -fx-background-color:  #999999;
+    -fx-text-fill: #FFFFE5;
+}
+.list-view .list-cell:selected{
+    -fx-background-color: #EFEFEF;
+    -fx-text-fill: #000000;
+}
+
+.text-area{
+    -fx-background-radius: 5, 5, 4, 3;
+    -fx-prompt-text-fill: derive(-fx-control-inner-background,-20%);
+}
+.text-area .content{
+    -fx-background-color: #999999;
+    -fx-text-fill: #ffffe5;
+    -fx-padding: 1  0 0 2;
+}
+
+.text-field{
+    -fx-background-radius: 5, 5, 4, 3;
+    -fx-prompt-text-fill: derive(-fx-control-inner-background,-20%);
+}
+
+.text-field .content{
+    -fx-background-color: #999999;
+    -fx-text-fill: #ffffe5;
+    -fx-padding: 1 0 0 2;
+}
+
+.text-input{
+    -fx-background-color: #999999;
+    -fx-text-fill: #ffffe5;
+}
+
+
+.changeinforcolor{
+    -fx-text-fill: #ae81bc;
+}
+
+.maintablecontentcolor .column-header{
+    -fx-border-color: white;
+    -fx-border-width: 0.5px;
+    -fx-background-color: #cfd3c5;
+    -fx-text-fill: #000000;
+}
+
+.maintablecontentcolor .table-cell{
+    -fx-border-color: white;
+    -fx-border-width: 0.5px;
+    -fx-alignment: center;
+    -fx-text-fill: #000000;
+    -fx-pref-height: 10px;
+    -fx-max-height: 10px;
+}
+.maintablecontentcolor .table-row-cell{
+    -fx-background-color: #CCCCCC;
+}
+.maintablecontentcolor .table-row-cell:odd{
+    -fx-background-color: #EFEFEF;
+}
+
+.tablecontentcolor .column-header{
+    -fx-border-color: white;
+    -fx-border-width: 0.5px;
+    -fx-background-color: #ffffe5;
+    -fx-text-fill: #000000;
+    -fx-pref-height: 22px;
+}
+
+.tablecontentcolor .table-cell{
+    -fx-border-color: white;
+    -fx-border-width: 0.5px;
+    -fx-alignment: center;
+    -fx-text-fill: #bf812d;
+}
+.tablecontentcolor .table-row-cell{
+    -fx-background-color: #cfd3c5;
+}
+.tablecontentcolor .table-row-cell:odd{
+    -fx-background-color: #EFEFEF;
+}
+
+/*.separator .line{*/
+    /*-fx-background-color: #C6B797;*/
+    /*-fx-padding: 0 1 0 1;*/
+    /*-fx-border-color: null;*/
+/*}*/
+
+/*.separator:horizontal .line{*/
+    /*-fx-background-color: #C6B797;*/
+    /*-fx-padding: 1 0 1 0;*/
+    /*-fx-border-color: null;*/
+/*}*/
+
+.inforcontentcolorv2{
+    -fx-text-fill:#bf812d;
+}
+
+.testcolor{
+    -fx-background-color: red;
+    -fx-border-color: blueviolet;
+}
+
+
+.controlLabel{
+	-fx-font-size: 1.3em;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center ;
+}
+.label1 .text{
+
+    -fx-effect: dropshadow(one-pass-box , white, 0, 1 , 0, 1);
+
+}
+
+.label1 {
+    /*
+
+    -fx-background-color: linear-gradient(
+
+        to bottom, #dbdcdd 0%, #a9a9ab 100%);
+*/
+
+    -fx-padding: 6px;
+
+    -fx-font-size: 1.7em;
+    -fx-font-weight: bold;
+
+}
+
+.label2.text{
+
+    -fx-effect: dropshadow(one-pass-box , white, 0, 1 , 0, 1);
+
+}
+
+.label2{
+
+    -fx-padding: 6px;
+    -fx-font-size: 1.7em;
+     -fx-font-weight: bold;
+}
+
+.label3.text{
+
+    -fx-effect: dropshadow(one-pass-box , white, 0, 1 , 0, 1);
+
+}
+
+.label3{
+
+    -fx-padding: 6px;
+    -fx-font-size: 1.3em;
+    -fx-text-fill: red;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+}
+
+.label4{
+
+    -fx-font-size: 1.3em;
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center ;
+    -fx-underline: true 
+}
+
+.label5{
+
+    -fx-font-size: 1.3em;
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+}
+
+.button1{
+        -fx-padding: 8px;
+
+    -fx-font-size: 1.2em;
+}
+
+.button1 .text{
+    -fx-effect: dropshadow(one-pass-box , white, 0, 1 , 0, 1);
+}
+
+.borderPane{
+/*  -fx-border-color:lightskyblue; */ 
+-fx-border-color: #666;
+    -fx-border-width:1;
+}
+
+.dateShow{
+	 -fx-padding: 6px;
+    -fx-text-fill: orange ;
+    -fx-font-weight: 900;
+   /*  -fx-font: bold 18pt "Courier"; */
+   -fx-font: bold 14pt "GungsuhChe";
+	-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+
+}
+
+#roomName .text{
+
+    -fx-effect: dropshadow(one-pass-box , white, 0, 1 , 0, 1);
+
+}
+
+#roomName{
+
+    -fx-padding: 6px;
+    -fx-font-size: 1.5em;
+    -fx-text-fill: red;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+}
+
+#labelRed{
+	 -fx-font-size: 1.4em;
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center ;
+    -fx-underline: true 
+}
+#labelBlue{
+	 -fx-font-size: 1.4em;
+    -fx-text-fill: blue ;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center ;
+    -fx-underline: true 
+}
+#labelGreen{
+	 -fx-font-size: 1.4em;
+    -fx-text-fill: green;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center ;
+    -fx-underline: true 
+}
+#labelOrange{
+	 -fx-font-size: 1.4em;
+    -fx-text-fill: orange;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center ;
+    -fx-underline: true 
+}
+#labelYellow{
+	 -fx-font-size: 1.4em;
+    -fx-text-fill: yellow;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center ;
+    -fx-underline: true 
+}
+#labelRecommendLength{
+	 -fx-font-size: 1.0em;
+	     -fx-text-fill: blue ;
+}
+
+#label4{
+
+    -fx-font-size: 1.4em;
+    -fx-text-fill: blue;
+    -fx-text-alignment: center ;
+}
+
+#label3{
+
+    -fx-font-size: 1.2em;
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center ; 
+}
+.split-pane *.split-pane-divider{
+	 -fx-padding: 0 2 0 2;
+	 -fx-background-color: lightsteelblue  ;
+}
+
+.tab:selected .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: #96b946;
+    -fx-font-size:1.2em;
+    -fx-font-weight: bold;
+}
+
+#testImg{
+        -fx-background-repeat:no-repeat ;
+    -fx-background-size: cover;
+    -fx-background-image: url("images/room.png");
+}
+
+#borderPane{
+/*  -fx-border-color:lightskyblue; */ 
+-fx-border-color: #666;
+    -fx-border-width:1;
+}
+
+#information_show_vbox{
+	-fx-border-color: #666;
+    -fx-border-width:1;
+/*  -fx-background-color: #c0c0c0; */
+    -fx-background-color: #ffebcd;
+}

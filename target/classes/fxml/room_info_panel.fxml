@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" type="GridPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <columnConstraints>
+        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" percentWidth="2.0" prefWidth="100.0" />
+        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" percentWidth="25.0" prefWidth="100.0" />
+        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" percentWidth="20.0" prefWidth="100.0" />
+        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" percentWidth="20.0" prefWidth="100.0" />
+        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" percentWidth="20.0" prefWidth="100.0" />
+        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" percentWidth="20.0" prefWidth="100.0" />
+        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" percentWidth="20.0" prefWidth="100.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" percentWidth="20.0" prefWidth="100.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" percentWidth="20.0" prefWidth="100.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" percentWidth="2.0" prefWidth="100.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints minHeight="10.0" percentHeight="20.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" percentHeight="25.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" percentHeight="15.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" percentHeight="20.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" percentHeight="20.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" percentHeight="20.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" percentHeight="2.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    </rowConstraints>
+    <children>
+        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.columnSpan="4">
+            <children>
+                <Label fx:id="roomLabel" text="客厅-信息" />
+            </children>
+        </HBox>
+        <Label fx:id="deviceInfoLabel" text="设备信息" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.rowSpan="2" />
+        <Label fx:id="roomInfoLabel" text="房间信息" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.rowSpan="2" />
+        <Label fx:id="roomStateLabel" text="房间状态" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="LEFT" GridPane.rowIndex="5" />
+        <Separator layoutX="56.0" layoutY="133.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.columnSpan="7" GridPane.rowIndex="2" GridPane.valignment="BOTTOM" />
+        <Separator layoutX="10.0" layoutY="49.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+         <GridPane.margin>
+            <Insets left="4.0" right="4.0" />
+         </GridPane.margin></Separator>
+
+        <Separator layoutX="10.0" layoutY="49.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+            <GridPane.margin>
+                <Insets left="6.0" right="6.0" />
+            </GridPane.margin></Separator>
+        <Separator layoutX="10.0" layoutY="49.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+            <GridPane.margin>
+                <Insets left="6.0" right="6.0" />
+            </GridPane.margin></Separator>
+        <Separator layoutX="10.0" layoutY="49.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+            <GridPane.margin>
+                <Insets left="6.0" right="6.0" />
+            </GridPane.margin></Separator>
+        <Separator layoutX="10.0" layoutY="49.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+            <GridPane.margin>
+                <Insets left="6.0" right="6.0" />
+            </GridPane.margin></Separator>
+        <Separator layoutX="10.0" layoutY="49.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+            <GridPane.margin>
+                <Insets left="6.0" right="6.0" />
+            </GridPane.margin></Separator>
+        <Separator layoutX="10.0" layoutY="49.0" prefWidth="200.0" GridPane.columnIndex="7" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+            <GridPane.margin>
+                <Insets left="6.0" right="6.0" />
+            </GridPane.margin></Separator>
+        <Separator layoutX="10.0" layoutY="49.0" prefWidth="200.0" GridPane.columnIndex="8" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+            <GridPane.margin>
+                <Insets left="6.0" right="6.0" />
+            </GridPane.margin></Separator>
+
+        <Separator layoutX="10.0" layoutY="49.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.columnSpan="7" GridPane.rowIndex="4" GridPane.valignment="BOTTOM" />
+        <Separator layoutX="10.0" layoutY="49.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.columnSpan="7" GridPane.rowIndex="5" GridPane.valignment="BOTTOM" />
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+         <children>
+            <Label fx:id="temSensorIconLabel" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" prefHeight="30.0" prefWidth="30.0" />
+            <Label fx:id="temSensorNumLabel" text="11" />
+         </children>
+      </HBox>
+      <Label fx:id="temSensorNameLabel" text="温度" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+         <children>
+             <Label fx:id="humSensorIconLabel" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" prefHeight="30.0" prefWidth="30.0" />
+             <Label fx:id="humSensorNumLabel" text="Label" />
+         </children>
+      </HBox>
+      <Label fx:id="humSensorNameLabel" text="湿度" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="1">
+            <children>
+                <Label fx:id="lightSensorIconLabel" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" prefHeight="30.0" prefWidth="30.0" />
+                <Label fx:id="lightSensorNumLabel" text="Label" />
+            </children>
+        </HBox>
+        <Label fx:id="lightSensorNameLabel" text="光照" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="1">
+            <children>
+                <Label fx:id="vocSensorIconLabel" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" prefHeight="30.0" prefWidth="30.0" />
+                <Label fx:id="vocSensorNumLabel" text="Label" />
+            </children>
+        </HBox>
+        <Label fx:id="vocSensorNameLabel" text="VOC" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="1">
+            <children>
+                <Label fx:id="lightIconLabel" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" prefHeight="30.0" prefWidth="30.0" />
+                <Label fx:id="lightNumLabel" text="Label" />
+            </children>
+        </HBox>
+        <Label fx:id="lightNameLabel" text="灯" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="7" GridPane.rowIndex="1">
+            <children>
+                <Label fx:id="curtainIconLabel" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" prefHeight="30.0" prefWidth="30.0" />
+                <Label fx:id="curtainNumLabel" text="Label" />
+            </children>
+        </HBox>
+        <Label fx:id="curtainNameLabel" text="窗帘" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="8" GridPane.rowIndex="1">
+            <children>
+                <Label fx:id="acIconLabel" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" prefHeight="30.0" prefWidth="30.0" />
+                <Label fx:id="acNumLabel" text="Label" />
+            </children>
+        </HBox>
+        <Label fx:id="acNameLabel" text="空调" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+
+
+      <Label fx:id="temSensorStateValueLabel" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+      <Label fx:id="temSensorSteadyLabel" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+        <Label fx:id="humSensorStateValueLabel" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+        <Label fx:id="humSensorSteadyLabel" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+        <Label fx:id="lightSensorStateValueLabel" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+        <Label fx:id="lightSensorSteadyLabel" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+        <Label fx:id="vocSensorStateValueLabel" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+        <Label fx:id="vocSensorSteadyLabel" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="3">
+            <children>
+                <Label fx:id="lightOnNumLabel" text="0">
+               <padding>
+                  <Insets right="4.0" />
+               </padding></Label>
+                <Label fx:id="lightOnLabel" text="ON" />
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="4">
+            <children>
+                <Label fx:id="lightOffNumLabel" text="0">
+                    <padding>
+                        <Insets right="4.0" />
+                    </padding></Label>
+                <Label fx:id="lightOffLabel" text="OFF" />
+            </children>
+        </HBox>
+
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="7" GridPane.rowIndex="3">
+            <children>
+                <Label fx:id="curtainOnNumLabel" text="0">
+                    <padding>
+                        <Insets right="4.0" />
+                    </padding></Label>
+                <Label fx:id="curtainOnLabel" text="ON" />
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="7" GridPane.rowIndex="4">
+            <children>
+                <Label fx:id="curtainOffNumLabel" text="0">
+                    <padding>
+                        <Insets right="4.0" />
+                    </padding></Label>
+                <Label fx:id="curtainOffLabel" text="OFF" />
+            </children>
+        </HBox>
+
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="8" GridPane.rowIndex="3">
+            <children>
+                <Label fx:id="acOnNumLabel" text="0">
+                    <padding>
+                        <Insets right="4.0" />
+                    </padding></Label>
+                <Label fx:id="acOnLabel" text="ON" />
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="8" GridPane.rowIndex="4">
+            <children>
+                <Label fx:id="acOffNumLabel" text="0">
+                    <padding>
+                        <Insets right="4.0" />
+                    </padding></Label>
+                <Label fx:id="acOffLabel" text="OFF" />
+            </children>
+        </HBox>
+
+
+      <Label fx:id="confortTagLabel" text="舒适" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="5" />
+      <Label fx:id="uncomfortTagLabel" text="不舒适" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="5" />
+      <Label fx:id="warningTagLabel" text="警告" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="5" />
+    </children>
+</fx:root>
